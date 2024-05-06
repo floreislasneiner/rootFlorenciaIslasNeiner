@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap');
+
+* {
+    font-family: sans-serif;
+    margin: 0%;
+    padding: 0%;
+
+}
+
+/*body {
+    background-image:url('multimedia/fondo2.jpg');
+}*/
+
+h1{
+    text-align: left;
+    font-family: sans-serif;
+    width: auto;
+    margin-top: 0%;
+    background-color: black;
+    color: white;
+}
+
+.menu {
+    background-color: black;
+padding: 10px;
+margin: 0%;
+display: flex;
+justify-content: space-between;
+}
+.menu ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-flow: row wrap;
+    justify-content:flex-end;
+    margin: 0%;
+    background-color: black;
+
+}
+
+.menu ul li  {
+    list-style: none;
+    margin-left: 10px;
+    background-color: black;
+    margin-top: 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    background-color: black;
+    margin: 5px;
+    
+}
+.menu a:hover{
+    color:darksalmon;
+}
+
+.portada {
+    align-content: center;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+
+/*.video {
+    margin-left: 150px;
+}
+
+h3 {
+    float: center;
+    text-align: center;
+    margin-bottom: 90px;
+    
+}
+
+.foto{ 
+    float: center;
+    height: 100px;
+    width: 250px;
+    margin-left: 350px;
+    margin-bottom: 30px;
+
+}
+
+.img1{
+    float: right;
+    width: 450px;
+    height: 300px;
+    margin-bottom: 100px;
+    margin-left: 300px;
+}*/
+
+
+footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex: row;
+    justify-content: space-evenly;
+    margin: 0%;
+    margin-top: -4px;
+    justify-items: flex-end;
+}
+.derechos {
+    width: 350px;
+    height: 130px;
+    padding: 20px;
+}
+
+.tags {
+    width: 170px;
+    height: 130px;
+    padding: 20px;
+}
+
+.redes {
+    width: 170px;
+    height: 130px;
+    padding: 20px;
+}
+
+.redes p a {
+text-decoration: none;
+padding: 2px;
+}
+
+.titulo {
+    text-decoration: underline;
+    padding: 5px;
+}
+
+.acercaDe {
+    width: 170px;
+    height: 130px;
+    padding: 20px;
+}
+
+-----------------------------paginaClases------------------------------
+
+
+.table-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    background-color: wheat; 
+}
+
+
+table {
+    border-collapse: collapse; 
+    width: 80%; 
+    margin: auto; 
+    margin-top: 100px;
+    margin-bottom: 300px;
+}
+
+th, td {
+    border: 1px solid black; 
+    padding: 12px;
+    text-align: center; 
+    vertical-align: middle; 
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+    font-family: "Alegreya", serif;
+    font-size:xx-large
+}
+
+body {
+    background-image: url(multimedia/fondo2.jpg);
+    background-size: cover;
+    
+}
+
+
+
+-------------------------paginaStaff------------------------------------
+
+.Staff {
+    display: grid;
+    padding: 10px;
+    border: solid black;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+.columna {
+width: 200px;
+height: 100px;
+background-image: url(multimedia/profe1.jpg);
+} 
+
+
+
+
+
+-------------------------PaginaClases---------------------------------
+
+.planes{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.plan1{
+    width:400px;
+    border: solid 2px black;
+    padding: 10px;
+    margin: 10px;
+    
+}
+
+.plan2{
+    width:400px;
+    border: solid 2px black;
+    padding: 10px;
+}
+
+.plan3{
+    width:400px;
+    border: solid 2px black;
+    padding: 10px;
+    margin: 10px;
+
+}
+.plan4 {
+    width:400px;
+    border: solid 2px black;
+    padding: 10px;
+}
+
+-------------------------paginaContacto------------------------------------
+
+body {
+    background-attachment: fixed;
+    margin: 0%;
+}
+
+form {
+    width: 450px;
+    margin: auto;
+    background-color: rgba(0,0,0,0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+form h2 {
+    text-align: center;
+    font-family: "Alegreya", serif;
+    font-size:xx-large;
+    margin: 0%;
+    margin-bottom: 20px;
+}
+
+input, textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+textarea {
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+#boton {
+    background: #31384A;
+    color: black;
+    padding: 20px;
+}
+
+@media (max-width:480) {
+    form{
+        width: 100%;
+    }
+}
